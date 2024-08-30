@@ -46,7 +46,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
     <Routes>
       <Route index element={<Home/>}/>
       <Route path='/Home' element={<Home/>}/>

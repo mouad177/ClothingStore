@@ -1,5 +1,4 @@
 {
-  "homepage": "https://mouad177.github.io/Clothing-store-react",
   "name": "clothingstore",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build"
+
   },
   "dependencies": {
     "embla-carousel-autoplay": "^8.2.0",

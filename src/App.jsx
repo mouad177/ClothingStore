@@ -1,4 +1,4 @@
-import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import { HashRouter,Routes,Route } from 'react-router-dom'
 import './App.css'
 import Home from './pages/Home'
 import Products from './pages/Products'
@@ -46,7 +46,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <HashRouter basename={import.meta.env.BASE_URL}>
     <Routes>
       <Route index element={<Home/>}/>
       <Route path='/Home' element={<Home/>}/>
@@ -93,7 +93,7 @@ function App() {
 
 
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
     </>
   )
 }

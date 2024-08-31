@@ -51,9 +51,9 @@ closeBtn.onclick = function(){
   
     </div>
   </div>
-<div id="mobile-menu" className=" sm:hidden z-50">
+<div id="mobile-menu" className=" hidden z-50">
   
-<ul className='flex flex-col mt-4 sm:hidden  bg-blue-500 p-2 rounded-2xl text-white shadow-md my-2 items-center right-6 left-6 absolute leading-relaxed space-y-3 font-bold md:hidden'>
+<ul className='flex flex-col mt-4 w-[450px] mx-auto bg-blue-500 p-2 rounded-2xl text-white shadow-md my-2 items-center justify-center text-center right-6 left-6 absolute leading-relaxed space-y-3 font-bold md:hidden'>
       <Link className='hover:text-yellow-100 hover:underline' to='/Home'>Home</Link>
           <Link className='hover:text-yellow-100 hover:underline' to='/Products'>Products</Link>
           <Link className='hover:text-yellow-100 hover:underline' to='/AboutUs'>About Us</Link>

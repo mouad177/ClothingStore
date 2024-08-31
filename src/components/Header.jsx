@@ -27,8 +27,8 @@ closeBtn.onclick = function(){
   },[])
   return (
 <>
-  <nav className='container bg-gradient-to-r from-indigo-500  fixed top-0 rounded-2xl'>
-  <div className="flex flex-row items-center justify-around">
+  <nav className='container fixed lg:right-[18%] bg-gradient-to-r from-indigo-500 p-2  top-0 mx-auto rounded-2xl'>
+  <div className="flex flex-row items-center justify-around space-x-3">
 <Link to='/Home'>
       <div id="logo" className='ml-0 text-2xl flex flex-row items-center space-x-4'>
         <img src={logo} width={50} alt="tshirt" />
@@ -53,7 +53,7 @@ closeBtn.onclick = function(){
   </div>
 <div id="mobile-menu" className=" hidden z-50">
   
-<ul className='flex flex-col mt-4 w-[450px] mx-auto bg-blue-500 p-2 rounded-2xl text-white shadow-md my-2 items-center justify-center text-center right-6 left-6 absolute leading-relaxed space-y-3 font-bold md:hidden'>
+<ul className='flex flex-col mt-4 w-[250px] mx-auto bg-blue-500 p-2 rounded-2xl text-white shadow-md my-2 items-center justify-center text-center right-6 left-6 absolute leading-relaxed space-y-3 font-bold md:hidden'>
       <Link className='hover:text-yellow-100 hover:underline' to='/Home'>Home</Link>
           <Link className='hover:text-yellow-100 hover:underline' to='/Products'>Products</Link>
           <Link className='hover:text-yellow-100 hover:underline' to='/AboutUs'>About Us</Link>

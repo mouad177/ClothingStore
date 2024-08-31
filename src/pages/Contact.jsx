@@ -7,8 +7,8 @@ function Contact() {
 <Header/>
         {/*Preline */}  
   {/* Contact */}
-  <div className="bg-neutral-900">
-    <div className="max-w-5xl px-4 xl:px-0 py-10 lg:py-20 mx-auto">
+  <div className="bg-neutral-900" >
+    <div className="mt-12 max-w-5xl px-4 xl:px-0 py-10 lg:py-20 mx-auto">
       {/* Title */}
       <div className="max-w-3xl mb-10 lg:mb-14">
         <h2 className="text-white font-extrabold text-2xl md:text-4xl md:leading-tight ">

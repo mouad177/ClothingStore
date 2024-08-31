@@ -96,7 +96,7 @@ tshirt4.onclick = function(){
 
 
 <div id="bgdesign"></div>
-  <img  className='md:w-1/3 z-0 translate-x-11 -translate-y-20' src={blue} id="hero" />
+  <img  className='md:w-1/3 -z-10 translate-x-11 -translate-y-20' src={blue} id="hero" />
   
 
 

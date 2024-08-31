@@ -27,10 +27,10 @@ closeBtn.onclick = function(){
   },[])
   return (
 <>
-  <nav className='z-50 rounded-xl container mx-auto bg-gradient-to-r from-blue-700 w-full fixed top-0'>
-  <div className="flex justify-around space-x-5 items-center">
+  <nav className='container bg-gradient-to-r from-indigo-500  fixed top-0 rounded-2xl'>
+  <div className="flex flex-row items-center justify-around">
 <Link to='/Home'>
-      <div id="logo" className='flex items-center space-x-4 p-2'>
+      <div id="logo" className='ml-0 text-2xl flex flex-row items-center space-x-4'>
         <img src={logo} width={50} alt="tshirt" />
         <h2 className='font-extrabold text-2xl text-yellow-500'>Elegance Center</h2>
       </div>
@@ -51,17 +51,20 @@ closeBtn.onclick = function(){
   
     </div>
   </div>
-
-  </nav>  
-
-
-    <ul id='mobile-menu' className='mt-10 z-50 flex flex-col space-y-3 text-center hidden bg-blue-600 rounded-2xl p-2 shadow-md text-white'>
+<div id="mobile-menu" className=" hidden z-50">
+  
+<ul className='flex flex-col mt-4 bg-blue-500 rounded-2xl text-white shadow-md my-2 items-center right-6 left-6 absolute leading-relaxed space-y-3 font-bold md:hidden'>
       <Link className='hover:text-yellow-100 hover:underline' to='/Home'>Home</Link>
           <Link className='hover:text-yellow-100 hover:underline' to='/Products'>Products</Link>
           <Link className='hover:text-yellow-100 hover:underline' to='/AboutUs'>About Us</Link>
           <Link className='hover:text-yellow-100 hover:underline' to='/Contact'>Contact</Link>
     
       </ul>
+</div>
+  </nav>  
+
+
+
 
     </>
 

@@ -36,11 +36,11 @@ function Products() {
 <div id="Products-MobileScreen"  >
   <div className="bg-gradient-to-r from-yellow-200 via-yellow-300 to-yellow-500 h-[400px] relative"> 
     <img className="absolute right-[50px] " src={product11}/>
-  <Link to='/product11' className="top-[70%] left-[8%] bg-sky-400 duration-500 hover:bg-sky-700 p-2 rounded-xl absolute text-3xl  text-white font-extrabold">View the product</Link>
+  <Link to='/product11' className="top-[70%] z-40 left-[8%] bg-sky-400 duration-500 hover:bg-sky-700 p-2 rounded-xl absolute text-3xl  text-white font-extrabold">View the product</Link>
   </div>
-  <div className="bg-gradient-to-r from-green-300 via-green-300 to-green-500 h-[400px] relative">
+  <div className="bg-gradient-to-r from-green-300  via-green-300 to-green-500 h-[400px] relative">
   <img className="absolute" src={product12}/>
-  <Link to='/product12' className=" bg-purple-400 duration-500 hover:bg-purple-600 p-2 rounded-xl absolute top-[70%] left-[8%] text-3xl  text-white font-extrabold">View the product</Link>
+  <Link to='/product12' className=" bg-purple-400 z-40 duration-500 hover:bg-purple-600 p-2 rounded-xl absolute top-[70%] left-[8%] text-3xl  text-white font-extrabold">View the product</Link>
   </div>
 
 </div>
@@ -51,7 +51,7 @@ function Products() {
 </div>
 
 <div id="PcVersion">
-  <div id="container" className="mt-16 PC hidden md:block " >
+  <div id="container" className="mt-20 PC hidden md:block " >
     <div id="dashboard"  className=' hidden md:block flex-col items-center justify-center relative'>
   
   

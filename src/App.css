@@ -78,3 +78,9 @@
 #about-us{
   border-bottom: 4px solid rgb(70, 70, 70);
 }
+nav{
+  z-index: 498;
+}
+#mobile-menu{
+  z-index: 999;
+}

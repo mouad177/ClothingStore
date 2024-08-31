@@ -91,12 +91,14 @@ tshirt4.onclick = function(){
 <div>
 <Header/>
 
-      <div className='mt-20  flex flex-col space-y-24 text-center md:flex-row-reverse items-center justify-around'>
+      <div className='flex mt-40 flex-col md:flex-row-reverse md:items-center justify-around '>
 
 
-  <div id="bgdesign"></div>
-  <img  className='md:w-1/3 translate-x-11 -translate-y-20' src={blue} id="hero" />
+
+<div id="bgdesign"></div>
+  <img  className='md:w-1/3 z-0 translate-x-11 -translate-y-20' src={blue} id="hero" />
   
+
 
 <div className='flex flex-col items-center translate-x-10 space-y-8 -translate-y-24'>
   <h1 className='font-bold text-8xl text-white'>Unique Elegance</h1>

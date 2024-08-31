@@ -68,7 +68,7 @@ function Products() {
     </div>
   
   
-      <div id="heroPr" className="bg-gradient-to-r hidden md:block from-sky-600 h-[500px] z-40">
+      <div id="heroPr" className="bg-gradient-to-r hidden md:block from-sky-600  z-40">
       <EmblaCarousel/>
     
     </div>

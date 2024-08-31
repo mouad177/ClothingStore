@@ -46,7 +46,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter >
+    <BrowserRouter basename='/ClothingStore/'>
     <Routes>
       <Route index element={<Home/>}/>
       <Route path='/Home' element={<Home/>}/>
